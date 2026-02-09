@@ -15,7 +15,7 @@ The model contains all essential components of a standard decoder:
 The model is trained on **WikiText**, using the **GPT-2 tokenizer only for token ID conversion**.
 At its current stage, the model has a loss of approximately **6.2**, which reflects an **early learning phase**. This makes it suitable for studying *mechanical behavior* rather than language quality.
 
-## Aim of This Study
+## Aim of This Study (observe cells 17 and 18)
 
 The high-level task of the decoder is next-token prediction. However, the goal here is **not** to evaluate predictions or semantics. Instead, the focus is narrowed to a **single token inside a sentence**.
 
@@ -30,7 +30,6 @@ This drift is measured using **cosine similarity** between:
 * embedding → layer 1
 * layer 1 → layer 2
 * embedding → final layer
-(observe cells 17 and 18)
 
 ## Why This Matters
 

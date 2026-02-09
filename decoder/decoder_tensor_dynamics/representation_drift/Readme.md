@@ -30,7 +30,7 @@ This drift is measured using **cosine similarity** between:
 * embedding → layer 1
 * layer 1 → layer 2
 * embedding → final layer
-
+(observe cells 17 and 18)
 
 ## Why This Matters
 
